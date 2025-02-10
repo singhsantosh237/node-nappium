@@ -14,7 +14,7 @@ workflows:
 
       - name: BrowserStack Upload
         script: |
-          APP_URL=$(curl -u "$BROWSERSTACK_USERNAME:$BROWSERSTACK_ACCESS_KEY" \
+          APP_URL=$(curl -u "$santoshsingh_kOMZyg:$c8ExapA8Sb92i1xsKxxX" \
             -X POST "https://api-cloud.browserstack.com/app-automate/upload" \
             -F "file=@android/WikipediaSample.apk" | jq -r '.app_url')
 
