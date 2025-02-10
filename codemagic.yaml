@@ -8,24 +8,25 @@ workflows:
         BROWSERSTACK_ACCESS_KEY: $c8ExapA8Sb92i1xsKxxX
 
     scripts:
-      - name: Build Android Test Release
-        script: |
-          cd android # Change folder if necessary
-          ./gradlew assembleRelease
-
       - name: BrowserStack Upload
         script: |
-          # Upload the app and capture the response
-          RESPONSE=$(curl -u "$santoshsingh_kOMZyg:$c8ExapA8Sb92i1xsKxxX" \
-            -X POST "https://api-cloud.browserstack.com/app-automate/upload" \
-            -F "file=@android/WikipediaSample.apk")
+          # Ensure the APK exists in the specified location
+          if [ -f "android/WikipediaSample.apk" ]; then
+            # Upload the APK to BrowserStack
+            RESPONSE=$(curl -u "$santoshsingh_kOMZyg:$c8ExapA8Sb92i1xsKxxX" \
+              -X POST "https://api-cloud.browserstack.com/app-automate/upload" \
+              -F "file=@android/WikipediaSample.apk")
 
-          # Check if the response is valid JSON
-          if echo "$RESPONSE" | jq empty > /dev/null 2>&1; then
-            APP_URL=$(echo "$RESPONSE" | jq -r '.app_url')
-            echo "Uploaded App URL: $APP_URL"
+            # Check if the response is valid JSON
+            if echo "$RESPONSE" | jq empty > /dev/null 2>&1; then
+              APP_URL=$(echo "$RESPONSE" | jq -r '.app_url')
+              echo "Uploaded App URL: $APP_URL"
+            else
+              echo "Error: Invalid response from BrowserStack"
+              echo "Response: $RESPONSE"
+              exit 1
+            fi
           else
-            echo "Error: Invalid response from BrowserStack"
-            echo "Response: $RESPONSE"
+            echo "Error: APK not found"
             exit 1
           fi
