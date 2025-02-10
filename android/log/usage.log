@@ -1,0 +1,229 @@
+2025-01-13 23:31:40 - [32minfo[39m: Reading configs from /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/browserstack.yml
+2025-01-13 23:31:40 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-01-13 23:31:47 - [32minfo[39m: Local binary started successfully
+2025-01-13 23:31:41 - [32minfo[39m: Reading configs from /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/browserstack.yml
+2025-01-13 23:31:41 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-01-13 23:31:48 - [32minfo[39m: Local binary started successfully
+2025-01-13 23:31:54 - [32minfo[39m: Running /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/test/sample_test_android.js for
+2025-01-13 23:31:56 - [32minfo[39m: Running /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/test/sample_test_android.js for
+2025-01-13 23:31:57 - [32minfo[39m: Running /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/test/sample_test_ios.js for
+2025-01-13 23:31:58 - [32minfo[39m: Running /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/test/sample_test_ios.js for
+2025-01-13 23:32:07 - [31merror[39m: ENOENT: no such file or directory, unlink 'log/usage-debug.log'
+2025-01-13 23:32:09 - [32minfo[39m: Local binary stopped
+2025-01-13 23:32:09 - [32minfo[39m: Local binary stopped
+2025-01-14 01:04:34 - [32minfo[39m: Reading configs from /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/browserstack_android.yml
+2025-01-14 01:04:34 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-01-14 01:04:44 - [32minfo[39m: Local binary started successfully
+2025-01-14 01:04:45 - [31merror[39m: Error: File test/sample_test.js doesn't exist
+    at Object.meptc (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/vanilla-js/command.js:2:1573)
+    at run (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/vanilla-js/command.js:2:2419)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async captureError (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1275)
+2025-01-14 01:04:48 - [32minfo[39m: Local binary stopped
+2025-01-14 01:05:48 - [32minfo[39m: Reading configs from /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/browserstack_android.yml
+2025-01-14 01:05:48 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-01-14 01:05:55 - [32minfo[39m: Local binary started successfully
+2025-01-14 01:06:01 - [32minfo[39m: Running /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/test/sample_test_android.js for
+2025-01-14 01:06:10 - [32minfo[39m: Local binary stopped
+2025-01-14 01:07:20 - [31merror[39m: Config file does not exist at any parent directory of 
+2025-01-14 01:07:21 - [31merror[39m: Error: Config file does not exist at any parent directory of: /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android
+    at new BrowserStackSetup (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/helpers/BrowserStackSetup.js:1:12597)
+    at run (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/vanilla-js/command.js:2:1989)
+    at Object.qtiGQ (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1209)
+    at captureError (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1299)
+    at Object.ACdfa (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/runner.js:2:8475)
+    at /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/runner.js:2:8699
+    at _.applyBuilderUpdateUsageAndParse (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/yargs/build/index.cjs:1:7435)
+    at _.runCommand (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/yargs/build/index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/yargs/build/index.cjs:1:58539)
+    at te.parse (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/yargs/build/index.cjs:1:40478)
+2025-01-14 01:08:05 - [31merror[39m: Config file does not exist at any parent directory of 
+2025-01-14 01:08:05 - [31merror[39m: Error: Config file does not exist at any parent directory of: /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android
+    at new BrowserStackSetup (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/helpers/BrowserStackSetup.js:1:12597)
+    at run (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/vanilla-js/command.js:2:1989)
+    at Object.qtiGQ (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1209)
+    at captureError (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1299)
+    at Object.ACdfa (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/runner.js:2:8475)
+    at /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/runner.js:2:8699
+    at _.applyBuilderUpdateUsageAndParse (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/yargs/build/index.cjs:1:7435)
+    at _.runCommand (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/yargs/build/index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/yargs/build/index.cjs:1:58539)
+    at te.parse (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/yargs/build/index.cjs:1:40478)
+2025-01-14 01:08:27 - [31merror[39m: Config file does not exist at any parent directory of 
+2025-01-14 01:08:27 - [31merror[39m: Error: Config file does not exist at any parent directory of: /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android
+    at new BrowserStackSetup (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/helpers/BrowserStackSetup.js:1:12597)
+    at run (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/vanilla-js/command.js:2:1989)
+    at Object.qtiGQ (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1209)
+    at captureError (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1299)
+    at Object.ACdfa (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/runner.js:2:8475)
+    at /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/runner.js:2:8699
+    at _.applyBuilderUpdateUsageAndParse (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/yargs/build/index.cjs:1:7435)
+    at _.runCommand (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/yargs/build/index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/yargs/build/index.cjs:1:58539)
+    at te.parse (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/yargs/build/index.cjs:1:40478)
+2025-01-14 01:09:49 - [31merror[39m: Config file does not exist at any parent directory of 
+2025-01-14 01:09:49 - [31merror[39m: Error: Config file does not exist at any parent directory of: /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android
+    at new BrowserStackSetup (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/helpers/BrowserStackSetup.js:1:12597)
+    at run (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/vanilla-js/command.js:2:1989)
+    at Object.qtiGQ (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1209)
+    at captureError (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1299)
+    at Object.ACdfa (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/runner.js:2:8475)
+    at /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/runner.js:2:8699
+    at _.applyBuilderUpdateUsageAndParse (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/yargs/build/index.cjs:1:7435)
+    at _.runCommand (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/yargs/build/index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/yargs/build/index.cjs:1:58539)
+    at te.parse (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/yargs/build/index.cjs:1:40478)
+2025-01-14 01:10:21 - [32minfo[39m: Reading configs from /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/browserstack.yml
+2025-01-14 01:10:21 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-01-14 01:10:25 - [31merror[39m: Error: LocalError: No output received
+    at BrowserStackSetup.setupBrowserstackLocal (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/helpers/BrowserStackSetup.js:1:17333)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async BrowserStackSetup.initialize (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/helpers/BrowserStackSetup.js:1:14646)
+    at async run (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/vanilla-js/command.js:2:2050)
+    at async captureError (/Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1275)
+2025-01-14 01:10:25 - [32minfo[39m: Shutdown triggered by SIGINT
+2025-01-14 01:10:41 - [32minfo[39m: Reading configs from /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/browserstack.yml
+2025-01-14 01:10:42 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-01-14 01:10:48 - [32minfo[39m: Local binary started successfully
+2025-01-14 01:10:54 - [32minfo[39m: Running /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/test/sample_test_android.js for
+2025-01-14 01:11:03 - [32minfo[39m: Local binary stopped
+2025-01-14 01:11:53 - [32minfo[39m: Reading configs from /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/browserstack.yml
+2025-01-14 01:11:53 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-01-14 01:12:00 - [32minfo[39m: Local binary started successfully
+2025-01-14 01:12:01 - [32minfo[39m: Using app: ./WikipediaSample.apk
+2025-01-14 01:12:01 - [32minfo[39m: Uploading app ./WikipediaSample.apk  to browserstack
+2025-01-14 01:12:09 - [32minfo[39m: App upload completed: {"app_url":"bs://5a133a293024b3bae34a29b49e0863a244f45d64"}
+2025-01-14 01:12:15 - [32minfo[39m: Running /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/test/sample_test_android.js for
+2025-01-14 01:12:15 - [32minfo[39m: Configuring to run tests on BrowserStack
+2025-01-14 01:12:48 - [32minfo[39m: View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/3e7a617803140f53ee521a513d47c8bd446ac291
+2025-01-14 01:12:53 - [32minfo[39m: Local binary stopped
+2025-01-14 01:13:21 - [32minfo[39m: Reading configs from /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/browserstack.yml
+2025-01-14 01:13:21 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-01-14 01:13:28 - [32minfo[39m: Local binary started successfully
+2025-01-14 01:13:29 - [32minfo[39m: Using app: ./WikipediaSample.apk
+2025-01-14 01:13:29 - [32minfo[39m: Uploading app ./WikipediaSample.apk  to browserstack
+2025-01-14 01:13:29 - [32minfo[39m: App already uploaded with md5 Hash Id: bs://5a133a293024b3bae34a29b49e0863a244f45d64
+2025-01-14 01:13:34 - [32minfo[39m: Running /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/test/sample_test_android.js for
+2025-01-14 01:13:34 - [32minfo[39m: Configuring to run tests on BrowserStack
+2025-01-14 01:14:04 - [32minfo[39m: View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/641beb5aea518a5d5f64d5a25b3a5799829576c7
+2025-01-14 01:14:08 - [32minfo[39m: Local binary stopped
+2025-01-14 01:15:36 - [32minfo[39m: Reading configs from /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/browserstack.yml
+2025-01-14 01:15:36 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-01-14 01:15:43 - [32minfo[39m: Local binary started successfully
+2025-01-14 01:15:44 - [32minfo[39m: Using app: ./WikipediaSample.apk
+2025-01-14 01:15:44 - [32minfo[39m: Uploading app ./WikipediaSample.apk  to browserstack
+2025-01-14 01:15:44 - [32minfo[39m: App already uploaded with md5 Hash Id: bs://5a133a293024b3bae34a29b49e0863a244f45d64
+2025-01-14 01:15:49 - [32minfo[39m: Running /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/test/sample_test_android.js for
+2025-01-14 01:15:49 - [32minfo[39m: Configuring to run tests on BrowserStack
+2025-01-14 01:16:19 - [32minfo[39m: View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/3e570f8d0810a15e5d1751d2a7b0082112b63238
+2025-01-14 01:16:24 - [32minfo[39m: Local binary stopped
+2025-01-14 01:18:56 - [32minfo[39m: Reading configs from /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/browserstack.yml
+2025-01-14 01:18:56 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-01-14 01:19:03 - [32minfo[39m: Local binary started successfully
+2025-01-14 01:19:04 - [32minfo[39m: Using app: ./WikipediaSample.apk
+2025-01-14 01:19:04 - [32minfo[39m: Uploading app ./WikipediaSample.apk  to browserstack
+2025-01-14 01:19:04 - [32minfo[39m: App already uploaded with md5 Hash Id: bs://5a133a293024b3bae34a29b49e0863a244f45d64
+2025-01-14 01:19:10 - [32minfo[39m: Running /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/test/sample_test_android.js for
+2025-01-14 01:19:10 - [32minfo[39m: Configuring to run tests on BrowserStack
+2025-01-14 01:19:39 - [32minfo[39m: View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/7bb8abe0a44f92a178c639f7bc72c6b7a2b684d8
+2025-01-14 01:19:44 - [32minfo[39m: Local binary stopped
+2025-01-14 01:22:11 - [32minfo[39m: Reading configs from /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/browserstack.yml
+2025-01-14 01:22:11 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-01-14 01:22:19 - [32minfo[39m: Local binary started successfully
+2025-01-14 01:22:20 - [32minfo[39m: Using app: ./WikipediaSample.apk
+2025-01-14 01:22:20 - [32minfo[39m: Uploading app ./WikipediaSample.apk  to browserstack
+2025-01-14 01:22:20 - [32minfo[39m: App already uploaded with md5 Hash Id: bs://5a133a293024b3bae34a29b49e0863a244f45d64
+2025-01-14 01:22:26 - [32minfo[39m: Running /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/test/sample_test_android.js for
+2025-01-14 01:22:26 - [32minfo[39m: Configuring to run tests on BrowserStack
+2025-01-14 01:22:55 - [32minfo[39m: View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/f7dd42a809ec5e474ffd7ce75cb6547648b682da
+2025-01-14 01:23:00 - [32minfo[39m: Local binary stopped
+2025-01-25 01:26:45 - [32minfo[39m: Reading configs from /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/browserstack.yml
+2025-01-25 01:26:45 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-01-25 01:26:56 - [32minfo[39m: Local binary started successfully
+2025-01-25 01:26:58 - [32minfo[39m: Using app: ./WikipediaSample.apk
+2025-01-25 01:26:58 - [32minfo[39m: Uploading app ./WikipediaSample.apk  to browserstack
+2025-01-25 01:26:58 - [32minfo[39m: App already uploaded with md5 Hash Id: bs://5a133a293024b3bae34a29b49e0863a244f45d64
+2025-01-25 01:27:04 - [32minfo[39m: Running /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/test/sample_test_android.js for
+2025-01-25 01:27:04 - [32minfo[39m: Configuring to run tests on BrowserStack
+2025-01-25 01:27:38 - [32minfo[39m: View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/f5d66f328dd47cf327359cfbf11514124af4cf74
+2025-01-25 01:27:44 - [32minfo[39m: Local binary stopped
+2025-01-25 01:34:00 - [32minfo[39m: Reading configs from /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/browserstack.yml
+2025-01-25 01:34:00 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-01-25 01:34:09 - [32minfo[39m: Local binary started successfully
+2025-01-25 01:34:10 - [32minfo[39m: Using app: ./WikipediaSample.apk
+2025-01-25 01:34:10 - [32minfo[39m: Uploading app ./WikipediaSample.apk  to browserstack
+2025-01-25 01:34:10 - [32minfo[39m: App already uploaded with md5 Hash Id: bs://5a133a293024b3bae34a29b49e0863a244f45d64
+2025-01-25 01:34:15 - [32minfo[39m: Running /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/test/sample_test_android.js for
+2025-01-25 01:34:15 - [32minfo[39m: Configuring to run tests on BrowserStack
+2025-01-25 01:34:38 - [32minfo[39m: View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/3e3def4a849be8ef16604e22dbe929c04196f89c
+2025-01-25 01:34:45 - [32minfo[39m: Local binary stopped
+2025-01-25 01:36:47 - [32minfo[39m: Reading configs from /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/browserstack.yml
+2025-01-25 01:36:47 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-01-25 01:36:54 - [32minfo[39m: Local binary started successfully
+2025-01-25 01:36:56 - [32minfo[39m: Using app: ./WikipediaSample.apk
+2025-01-25 01:36:56 - [32minfo[39m: Uploading app ./WikipediaSample.apk  to browserstack
+2025-01-25 01:36:56 - [32minfo[39m: App already uploaded with md5 Hash Id: bs://5a133a293024b3bae34a29b49e0863a244f45d64
+2025-01-25 01:37:00 - [32minfo[39m: Running /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/test/sample_test_android.js for
+2025-01-25 01:37:00 - [32minfo[39m: Configuring to run tests on BrowserStack
+2025-01-25 01:37:21 - [32minfo[39m: View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/a7ad90b7d7c58c72a6f6b88f4b0e22d0c5eeac8c
+2025-01-25 01:37:28 - [32minfo[39m: Local binary stopped
+2025-01-25 01:41:25 - [32minfo[39m: Reading configs from /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/browserstack.yml
+2025-01-25 01:41:25 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-01-25 01:41:34 - [32minfo[39m: Local binary started successfully
+2025-01-25 01:41:35 - [32minfo[39m: Using app: ./WikipediaSample.apk
+2025-01-25 01:41:35 - [32minfo[39m: Uploading app ./WikipediaSample.apk  to browserstack
+2025-01-25 01:41:35 - [32minfo[39m: App already uploaded with md5 Hash Id: bs://5a133a293024b3bae34a29b49e0863a244f45d64
+2025-01-25 01:41:39 - [32minfo[39m: Running /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/test/sample_test_android.js for
+2025-01-25 01:41:39 - [32minfo[39m: Configuring to run tests on BrowserStack
+2025-01-25 01:42:01 - [32minfo[39m: View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/d4984210beaa4770624cbd8a28271cc6f83e9535
+2025-01-25 01:42:07 - [32minfo[39m: Local binary stopped
+2025-01-25 01:44:57 - [32minfo[39m: Reading configs from /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/browserstack.yml
+2025-01-25 01:44:57 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-01-25 01:45:04 - [32minfo[39m: Local binary started successfully
+2025-01-25 01:45:06 - [32minfo[39m: Using app: ./WikipediaSample.apk
+2025-01-25 01:45:06 - [32minfo[39m: Uploading app ./WikipediaSample.apk  to browserstack
+2025-01-25 01:45:06 - [32minfo[39m: App already uploaded with md5 Hash Id: bs://5a133a293024b3bae34a29b49e0863a244f45d64
+2025-01-25 01:45:10 - [32minfo[39m: Running /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/test/sample_test_android.js for
+2025-01-25 01:45:10 - [32minfo[39m: Configuring to run tests on BrowserStack
+2025-01-25 01:45:31 - [32minfo[39m: View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/e5a9cbd88de82fa158cdfdbb8d87aa1a68a0d316
+2025-01-25 01:45:37 - [32minfo[39m: Local binary stopped
+2025-01-25 01:47:07 - [32minfo[39m: Reading configs from /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/browserstack.yml
+2025-01-25 01:47:07 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-01-25 01:47:16 - [32minfo[39m: Local binary started successfully
+2025-01-25 01:47:17 - [32minfo[39m: Using app: ./WikipediaSample.apk
+2025-01-25 01:47:17 - [32minfo[39m: Uploading app ./WikipediaSample.apk  to browserstack
+2025-01-25 01:47:17 - [32minfo[39m: App already uploaded with md5 Hash Id: bs://5a133a293024b3bae34a29b49e0863a244f45d64
+2025-01-25 01:47:22 - [32minfo[39m: Running /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/test/sample_test_android.js for
+2025-01-25 01:47:22 - [32minfo[39m: Configuring to run tests on BrowserStack
+2025-01-25 01:47:45 - [32minfo[39m: View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/b6ed567e91c93b38f2ee8e42f254de0ebdf03934
+2025-01-25 01:47:51 - [32minfo[39m: Local binary stopped
+2025-01-25 01:49:17 - [32minfo[39m: Reading configs from /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/browserstack.yml
+2025-01-25 01:49:17 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-01-25 01:49:24 - [32minfo[39m: Local binary started successfully
+2025-01-25 01:49:25 - [32minfo[39m: Using app: ./WikipediaSample.apk
+2025-01-25 01:49:25 - [32minfo[39m: Uploading app ./WikipediaSample.apk  to browserstack
+2025-01-25 01:49:25 - [32minfo[39m: App already uploaded with md5 Hash Id: bs://5a133a293024b3bae34a29b49e0863a244f45d64
+2025-01-25 01:49:30 - [32minfo[39m: Running /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/test/sample_test_android.js for
+2025-01-25 01:49:30 - [32minfo[39m: Configuring to run tests on BrowserStack
+2025-01-25 01:50:22 - [32minfo[39m: View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/964b7b7561dae36d737f321c07fbe3d4be39e994
+2025-01-25 01:50:28 - [32minfo[39m: Local binary stopped
+2025-01-25 01:52:28 - [32minfo[39m: Reading configs from /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/browserstack.yml
+2025-01-25 01:52:28 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-01-25 01:52:37 - [32minfo[39m: Local binary started successfully
+2025-01-25 01:52:38 - [32minfo[39m: Using app: ./WikipediaSample.apk
+2025-01-25 01:52:38 - [32minfo[39m: Uploading app ./WikipediaSample.apk  to browserstack
+2025-01-25 01:52:38 - [32minfo[39m: App already uploaded with md5 Hash Id: bs://5a133a293024b3bae34a29b49e0863a244f45d64
+2025-01-25 01:52:42 - [32minfo[39m: Running /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/test/sample_test_android.js for
+2025-01-25 01:52:42 - [32minfo[39m: Configuring to run tests on BrowserStack
+2025-01-25 01:53:03 - [32minfo[39m: View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/9fd31e6df0664a6b32bee9e0dbb40246c3926bc0
+2025-01-25 01:53:10 - [32minfo[39m: Local binary stopped
+2025-01-25 01:53:35 - [32minfo[39m: Reading configs from /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/browserstack.yml
+2025-01-25 01:53:35 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-01-25 01:53:43 - [32minfo[39m: Local binary started successfully
+2025-01-25 01:53:44 - [32minfo[39m: Using app: ./WikipediaSample.apk
+2025-01-25 01:53:44 - [32minfo[39m: Uploading app ./WikipediaSample.apk  to browserstack
+2025-01-25 01:53:44 - [32minfo[39m: App already uploaded with md5 Hash Id: bs://5a133a293024b3bae34a29b49e0863a244f45d64
+2025-01-25 01:53:48 - [32minfo[39m: Running /Users/santoshsingh/Desktop/node-appium-app-browserstack-master/android/test/sample_test_android.js for
+2025-01-25 01:53:48 - [32minfo[39m: Configuring to run tests on BrowserStack
+2025-01-25 01:54:40 - [32minfo[39m: View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/62f891422820c7245957f16d63b27dcb48de626d
+2025-01-25 01:54:46 - [32minfo[39m: Local binary stopped

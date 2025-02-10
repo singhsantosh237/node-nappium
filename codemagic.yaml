@@ -1,0 +1,10 @@
+  scripts:
+    - name: Build Android Test release
+      script: | 
+        cd android # change folder if necessary 
+    - name: BrowserStack upload
+      script: | 
+        APP_URL=$(curl -u "$santoshsingh_kOMZyg:$c8ExapA8Sb92i1xsKxxX" \
+          -X POST "https://api-cloud.browserstack.com/app-automate/upload" \
+          -F "file=@/android/WikipediaSample.apk" \ 
+          | jq -r '.app_url') 

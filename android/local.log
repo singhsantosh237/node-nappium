@@ -1,0 +1,16 @@
+
+
+Sat Jan 25 2025 01:53:39:845 GMT+0530 (IST) -- Binary semantic version is v8.9.7
+Sat Jan 25 2025 01:53:39:846 GMT+0530 (IST) -- Setting output as extra verbose with request parsing
+Sat Jan 25 2025 01:53:40:292 GMT+0530 (IST) -- [WARNING] Skipping initialisation of configuration console because: port already in use by another Binary
+Sat Jan 25 2025 01:53:41:754 GMT+0530 (IST) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Sat Jan 25 2025 01:53:42:941 GMT+0530 (IST) -- Connecting to BrowserStack using WebSocket protocol...
+Sat Jan 25 2025 01:53:42:942 GMT+0530 (IST) -- Platform supports WebSocket connections.
+
+Sat Jan 25 2025 01:53:44:294 GMT+0530 (IST) -- Connecting to BrowserStack using WebSocket protocol...
+Sat Jan 25 2025 01:53:44:304 GMT+0530 (IST) -- Platform supports WebSocket connections.
+
+Sat Jan 25 2025 01:53:44:307 GMT+0530 (IST) -- Press Ctrl-C to exit
+
+
