@@ -1,12 +1,22 @@
-scripts:
-  - name: Build Android Test Release
-    script: |
-      cd android
+workflows:
+  android-build:
+    environment:
+      groups:
+        - group-name
+      vars:
+        BROWSERSTACK_USERNAME: $santoshsingh_kOMZyg
+        BROWSERSTACK_ACCESS_KEY: $c8ExapA8Sb92i1xsKxxX
 
-  - name: BrowserStack Upload
-    script: |
-      APP_URL=$(curl -u "$santoshsingh_kOMZyg:$c8ExapA8Sb92i1xsKxxX" \
-        -X POST "https://api-cloud.browserstack.com/app-automate/upload" \
-        -F "file=@android/WikipediaSample.apk" | jq -r '.app_url')
+    scripts:
+      - name: Build Android Test Release
+        script: |
+          cd android # Change folder if necessary
 
-      echo "Uploaded App URL: $APP_URL"
+      - name: BrowserStack Upload
+        script: |
+          APP_URL=$(curl -u "$BROWSERSTACK_USERNAME:$BROWSERSTACK_ACCESS_KEY" \
+            -X POST "https://api-cloud.browserstack.com/app-automate/upload" \
+            -F "file=@android/WikipediaSample.apk" | jq -r '.app_url')
+
+          echo "Uploaded App URL: $APP_URL"
+
