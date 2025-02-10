@@ -4,8 +4,9 @@ workflows:
       groups:
         - group-name
       vars:
-        BROWSERSTACK_USERNAME: $santoshsingh_kOMZyg
-        BROWSERSTACK_ACCESS_KEY: $c8ExapA8Sb92i1xsKxxX
+        BROWSERSTACK_USERNAME: "santoshsingh_kOMZyg"
+        BROWSERSTACK_ACCESS_KEY: "c8ExapA8Sb92i1xsKxxX"
+
 
     scripts:
       - name: BrowserStack Upload
