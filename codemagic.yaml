@@ -14,7 +14,7 @@ workflows:
           # Ensure the APK exists in the specified location
           if [ -f "android/WikipediaSample.apk" ]; then
             # Upload the APK to BrowserStack
-            RESPONSE=$(curl -u "$santoshsingh_kOMZyg:$c8ExapA8Sb92i1xsKxxX" \
+            RESPONSE=$(curl -u "santoshsingh_kOMZyg:c8ExapA8Sb92i1xsKxxX" \
               -X POST "https://api-cloud.browserstack.com/app-automate/upload" \
               -F "file=@android/WikipediaSample.apk")
 
