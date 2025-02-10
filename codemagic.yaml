@@ -15,7 +15,7 @@ workflows:
           if [ -f "android/WikipediaSample.apk" ]; then
             # Upload the APK to BrowserStack
             RESPONSE=$(curl -u "santoshsingh_kOMZyg:c8ExapA8Sb92i1xsKxxX" \
-              -X POST "https://api-cloud.browserstack.com/app-automate/upload" \
+              -X POST "https://api-cloud.browserstack.com/app-live/upload" \
               -F "file=@android/WikipediaSample.apk")
 
             # Check if the response is valid JSON
