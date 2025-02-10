@@ -4,19 +4,28 @@ workflows:
       groups:
         - group-name
       vars:
-        BROWSERSTACK_USERNAME: $santoshsingh_kOMZyg
-        BROWSERSTACK_ACCESS_KEY: $c8ExapA8Sb92i1xsKxxX
+        BROWSERSTACK_USERNAME: $BROWSERSTACK_USERNAME
+        BROWSERSTACK_ACCESS_KEY: $BROWSERSTACK_ACCESS_KEY
 
     scripts:
       - name: Build Android Test Release
         script: |
           cd android # Change folder if necessary
+          ./gradlew assembleRelease
 
       - name: BrowserStack Upload
         script: |
-          APP_URL=$(curl -u "$santoshsingh_kOMZyg:$c8ExapA8Sb92i1xsKxxX" \
+          # Upload the app and capture the response
+          RESPONSE=$(curl -u "$BROWSERSTACK_USERNAME:$BROWSERSTACK_ACCESS_KEY" \
             -X POST "https://api-cloud.browserstack.com/app-automate/upload" \
-            -F "file=@android/WikipediaSample.apk" | jq -r '.app_url')
+            -F "file=@android/WikipediaSample.apk")
 
-          echo "Uploaded App URL: $APP_URL"
-
+          # Check if the response is valid JSON
+          if echo "$RESPONSE" | jq empty > /dev/null 2>&1; then
+            APP_URL=$(echo "$RESPONSE" | jq -r '.app_url')
+            echo "Uploaded App URL: $APP_URL"
+          else
+            echo "Error: Invalid response from BrowserStack"
+            echo "Response: $RESPONSE"
+            exit 1
+          fi
